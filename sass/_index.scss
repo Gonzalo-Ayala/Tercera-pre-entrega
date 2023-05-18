@@ -1,0 +1,52 @@
+@use 'variables';
+
+
+.img_principal {
+    height:variables.$tamano *20 ;
+    width: variables.$tamano * 40;
+    &:hover {
+        transform: scale(1.1);
+        transition: all 3s;
+    }
+    padding: 1em;
+}
+
+li {
+      img{
+
+        height: variables.$tamano + 5;
+        width:variables.$tamano + 5;
+
+   }
+}
+
+
+span {
+    font-weight: bold;
+}
+
+
+.lista_contactos{
+    list-style:none;
+}
+
+.class_h2{
+    font-weight: bold;
+    font-size: variables.$tamano * 2;
+    padding: 0.5em;
+}
+
+.class_h1 {
+    padding: variables.$tamano - 5;
+    font-size: variables.$tamano * 2 + 10;
+    font-weight: bold;
+    animation: mov 5s ease-in-out;
+}
+
+@keyframes mov {
+	0% {
+		transform: translate(-35%,0);
+	}
+}
+
+

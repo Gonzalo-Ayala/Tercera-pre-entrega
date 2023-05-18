@@ -1,0 +1,12 @@
+@use 'variables';
+
+.form_consultas{
+	.form_fem{
+		margin-bottom: variables.$tamano;
+	}
+	margin-top: variables.$tamano;
+	p{
+		margin-top: variables.$tamano;
+	}
+}
+
